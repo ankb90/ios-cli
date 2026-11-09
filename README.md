@@ -130,7 +130,7 @@ While initially built for **Google Antigravity**, `iOS CLI` is architected to cl
 ### Option 1: For Google Antigravity
 Clone directly into your Antigravity global plugins directory:
 ```bash
-git clone https://github.com/<your-username>/ios-cli.git ~/.gemini/config/plugins/ios-cli
+git clone https://github.com/ankb90/ios-cli.git ~/.gemini/config/plugins/ios-cli
 ```
 Antigravity automatically detects and live-reloads the plugin. Manage or toggle it anytime via your Customizations page.
 
