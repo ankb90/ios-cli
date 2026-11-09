@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Apple Pro Dark Metallic Gradient (Subtle, Clean & Sophisticated) -->
+    <linearGradient id="pro-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E1F24" />
+      <stop offset="50%" stop-color="#141518" />
+      <stop offset="100%" stop-color="#0B0C0E" />
+    </linearGradient>
+
+    <!-- Pristine Apple White with Subtle 3D Ceramic Sheen -->
+    <linearGradient id="apple-white" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F2F4F8" />
+    </linearGradient>
+
+    <!-- Clean, High-Precision Negative Space Mask -->
+    <mask id="apple-cutout">
+      <!-- White shows the Apple -->
+      <rect x="0" y="0" width="512" height="512" fill="#FFFFFF" />
+
+      <!-- Bold, Confident CLI Prompt '> _' carved cleanly through the Apple -->
+      <path d="M 188 206 L 244 256 L 188 306" 
+            fill="none" 
+            stroke="#000000" 
+            stroke-width="32" 
+            stroke-linecap="round" 
+            stroke-linejoin="round" />
+
+      <line x1="270" y1="306" x2="324" y2="306" 
+            stroke="#000000" 
+            stroke-width="32" 
+            stroke-linecap="round" />
+    </mask>
+  </defs>
+
+  <!-- 1. Apple Pro Squircle Base (Clean matte finish with precision border) -->
+  <rect x="44" y="44" width="424" height="424" rx="98" 
+        fill="url(#pro-bg)" 
+        stroke="#2E3038" 
+        stroke-width="2" />
+
+  <!-- 2. Apple Leaf (Pure, solid, iconic) -->
+  <path d="M 288 106 C 303 87 312 61 309 36 C 287 38 260 51 245 69 C 232 85 221 111 225 136 C 249 137 274 123 288 106 Z" 
+        fill="url(#apple-white)" />
+
+  <!-- 3. Apple Body with Precision Laser-Cut Negative Space CLI Prompt -->
+  <path d="M 342 258 C 342 209 381 186 383 185 C 360 152 325 147 312 146 C 282 143 252 164 237 164 C 221 164 198 146 173 146 C 141 146 111 165 94 195 C 60 255 86 342 119 389 C 135 413 153 438 179 437 C 203 436 213 421 243 421 C 272 421 280 437 306 437 C 333 436 349 414 365 390 C 384 362 392 335 394 333 C 392 332 342 312 342 258 Z" 
+        fill="url(#apple-white)" 
+        mask="url(#apple-cutout)" />
+</svg>

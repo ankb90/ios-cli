@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "xcode": {
+      "command": "xcrun",
+      "args": [
+        "mcpbridge"
+      ]
+    },
+    "mobile-build": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mobilebuildmcp",
+        "mcp"
+      ]
+    }
+  }
+}

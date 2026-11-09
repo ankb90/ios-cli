@@ -1,0 +1,28 @@
+{
+  "name": "ios-cli",
+  "displayName": "iOS CLI & Apple Developer Tools",
+  "version": "1.1.0",
+  "description": "Unified Apple Platform Expert Suite for Antigravity: Xcode & simulator automation, UI layout inspection, journey testing, SwiftUI previews, Swift 6 concurrency, architecture design, crash debugging, memory profiling, and Apple accessibility audits.",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Audit my SwiftUI views for VoiceOver and Dynamic Type accessibility compliance",
+    "Review my project architecture for modular SPM structure and Swift 6 concurrency",
+    "Diagnose an iOS runtime crash using LLDB stack trace analysis"
+  ],
+  "author": {
+    "name": "Antigravity Apple Developer Community"
+  },
+  "keywords": [
+    "ios",
+    "apple",
+    "xcode",
+    "swift",
+    "swiftui",
+    "simulator",
+    "mobile",
+    "testing",
+    "architecture",
+    "debugging",
+    "accessibility"
+  ]
+}
